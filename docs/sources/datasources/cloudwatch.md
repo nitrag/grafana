@@ -40,7 +40,7 @@ Checkout AWS docs on [IAM Roles](http://docs.aws.amazon.com/AWSEC2/latest/UserGu
 
 ### AWS credentials file
 
-Create a file at `~/.aws/credentials`. That is the `HOME` path for user running grafana-server.
+Create a file at `~/.aws/credentials`. That is the `HOME` path for user running grafana-server (or /usr/share/grafana/.aws/credentials if installed via apt).
 
 Example content:
 
